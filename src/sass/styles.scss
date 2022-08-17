@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$font-primary:'Alegreya', serif;
+$primary-color:#3a2014;
+
+body{
+    background-color: #f0e1ce ;
+}
+
+h1{
+    font-family:  $font-primary;
+    font-size:5em;
+    font-weight: 400;
+    color: $primary-color;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p{
+    font-family:  $font-primary;
+    color: $primary-color;
+    font-size:  2.5em;
+    font-style: italic;
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    font-style: italic;
+    
+    
+}
