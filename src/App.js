@@ -1,14 +1,11 @@
 import './sass/styles.scss'
+import Frame from './components/frame'
 
 function App() {
   return (
     <div className="App">
-      <div id="quote-box">
-        <div id="text">
-      <h1>Random quote</h1>
-      <p> Todas las penas pueden soportarse si las ponemos en una historia o contamos una historia sobre ellas</p>
-      </div>
-      </div>
+      <Frame
+      image='inpsac'/>
     </div>
   );
 }

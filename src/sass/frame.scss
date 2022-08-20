@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Arsenica';
+    src: url(../fonts/arsenica/ArsenicaTrial-Medium.ttf);
+}
+
+
+$font-primary:'Alegreya', serif;
+$font-secondary: 'Arsenica', serif;
+$primary-color:rgba(58, 32, 20, .68);
+$gray : rgba(217, 217, 217, .68);
+$bg: rgba(223, 194, 151, .48);
+
+header{
+    color: $primary-color;
+    font-size: 2em;
+    font-family: $font-primary;
+    font-weight: 600;   
+}
+
+#quote-box{
+    margin: 5rem auto;
+    max-width: 33rem;
+    width: 100%;
+    padding: 25px; 
+    border-radius: 2em;
+    border: .6rem solid $primary-color;
+    
+}
+
+.img-inpsac{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+}
+
+#text{
+    color: $primary-color;
+    font-size: 1.5em;
+    font-family: $font-primary;
+    font-weight: 400;
+    font-style: italic;
+    padding: .5em;
+    text-align:justify;
+}
+
+#author{ 
+    display: inline-block;
+    color: $primary-color;
+    font-size: 1.4em;
+    font-family: $font-secondary;
+    padding: .2em;
+    text-align:right;
+    max-width: 10em;
+    position: relative;
+    top: -7rem;
+    right: -2rem;
+
+}

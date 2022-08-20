@@ -1,0 +1,30 @@
+{
+    "quotes":[
+        {"id":"1",
+        "quote":"Ninguna pérdida es ajena a la problematica social.", "author":"Sarah Cohen\nla niñez cautiva."},
+        {"id":"2",
+        "quote":"El dolor de muelas que sirve interrumpe todos sus sueños idealistas y platonizantes, así como su inspiracion amorosa. por ese dolor se olvida las cotizaciones de la bolsa, los impuestos, la tabla de multiplicar, etc.", "author":"Jacques Lacan\n Seminario, los escritos tecnicos de Freud."},
+        {"id":"3",
+        "quote":"Todas las formas habituales del ser pierden súbitamente su atractivo, están anuladas. Y ahora, en el pequeño agujero, la muela habita. El mundo simbólico de las cotizaciones de la bolsa y de la tabla de multiplicar se halla enteramente cargado en el dolor", "author":"Jacques Lacan\n Seminario, los escritos tecnicos de Freud."},
+        {"id":"4",
+        "quote":"Todas las penas pueden soportarse si las ponemos en una historia o contamos una historia sobre ellas.", "author":"Isak Dinesen\n En HANAAH ARDENT la condicion humana."},
+        {"id":"5",
+        "quote":"La expresion de intenso dolor en un rostro era, en verdad, mas violenta y aterradora que la expresion de intenso placer... más, en el fondo, no diferia de ella; era el mismo contraste, un tanto sardonico, el mismo encenderse y apgarse. Sin que supiera por qué. le resultaba en extremo sorprendente que el dolor y el placer pudieran ser tan semejantes como hermanos.", "author":"Herman Hesse\n Narciso y Goldmundo."},
+        {"id":"6",
+        "quote":"Sueños y fantasías con el comienzo de muchas hazañas, y nada seria peor que repudiarlos o despreciarlos. Lo importante es la clase de fantasia que imaginamos; si es de las que nos hacen avanzar o de las que nos mantienen encadenados a la improductividad", "author":"Erich Fromm."},
+        {"id":"7",
+        "quote":"La fatiga del camino recorrido trabajando[...] el silencioso temor por la seguridad del pan[...] la tacita de alegria de la supervivencia a la necesidad[...] la angustia de la promximidad a la muerte", "author":"Martin Heidegger."},
+        {"id":"8",
+        "quote":"Todo lo importante nos llega de modo imprevisto, pero lo imprevisto necesita tiempo para preprarse.", "author":"Jorge Alemán Lavigne\n Filosofo, Psicoanalista."},
+        {"id":"8",
+        "quote":"'Las redes sociales son una trampa' 'El diálogo real no es hablar con gente que piensa lo mismo que tú. Las redes sociales no enseñan a dialogar porque es tan fácil evitar la controversia… Mucha gente usa las redes sociales no para unir, no para ampliar sus horizontes, sino al contrario, para encerrarse en lo que llamo zonas de confort, donde el único sonido que oyen es el eco de su voz, donde lo único que ven son los reflejos de su propia cara. Las redes son muy útiles, dan servicios muy placenteros, pero son una trampa'", "author":"Zygmunt Bauman \n Filósofo polaco"},
+        {"id":"9",
+        "quote":"'Las redes sociales son una trampa' 'El diálogo real no es hablar con gente que piensa lo mismo que tú. Las redes sociales no enseñan a dialogar porque es tan fácil evitar la controversia… Mucha gente usa las redes sociales no para unir, no para ampliar sus horizontes, sino al contrario, para encerrarse en lo que llamo zonas de confort, donde el único sonido que oyen es el eco de su voz, donde lo único que ven son los reflejos de su propia cara. Las redes son muy útiles, dan servicios muy placenteros, pero son una trampa'", "author":"Zygmunt Bauman \n Filósofo polaco"},
+        {"id":"9",
+        "quote":"Hemos olvidado el amor, la amistad, los sentimientos, el trabajo bien hecho. Lo que se consume, lo que se compra “son solo sedantes morales que tranquilizan tus escrúpulos éticos.", "author":"Zygmunt Bauman \n Filósofo polaco"},
+        {"id":"10",
+        "quote":"Ha sido una catástrofe arrastrar la clase media al precariado. El conflicto ya no es entre clases, sino de cada uno con la sociedad.", "author":"Zygmunt Bauman \n Filósofo polaco"}
+        
+
+    ]
+}
