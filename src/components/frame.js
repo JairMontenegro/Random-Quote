@@ -1,5 +1,10 @@
 import React from 'react'
+import Media from '../components/share'
 import '../sass/frame.scss'
+
+
+
+
 
 
 
@@ -12,7 +17,8 @@ function Frame (props) {
         className='img-inpsac'
         src={require(`../img/${props.image}.png`)} alt="img-inpsac"/>
         <p id="author">Zygmunt Bauman  Filósofo polaco</p>
-        <button id="new-quote">Nueva cita</button>
+        <Media />
+       
     </div>
     )
 }
