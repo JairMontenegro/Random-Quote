@@ -8,6 +8,7 @@ import '../sass/frame.scss'
 
 
 
+
 function Frame (props) {
     return(
         <div id="quote-box">
@@ -18,7 +19,6 @@ function Frame (props) {
         src={require(`../img/${props.image}.png`)} alt="img-inpsac"/>
         <p id="author">Zygmunt Bauman  Filósofo polaco</p>
         <Media />
-       
     </div>
     )
 }

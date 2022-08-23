@@ -1,7 +1,9 @@
 import React from 'react'
 import Button from './button'
 import Socialmedia from './social'
-import '../sass/media.scss'
+import {AiFillTwitterSquare}  from "react-icons/ai"
+import {AiFillInstagram}  from "react-icons/ai"
+import '../sass/share.scss'
 
 
 
@@ -10,8 +12,14 @@ function Media (){
     <div className='media_container'>
     <Button text="Nueva cita"/>
     <Socialmedia 
-        text="tuitear"
-        isTweet={true}/>
+        icon={<AiFillTwitterSquare size={20} className="icon" />}
+        text="Tuitear"
+        isTweet={true}
+        />
+        <Socialmedia 
+        icon ={<AiFillInstagram size ={20}  className="icon"/>}
+        text="Compartir"
+        isTweet={false}/>
     </div>
 
     )

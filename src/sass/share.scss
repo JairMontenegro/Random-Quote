@@ -1,0 +1,49 @@
+@use './variables';
+
+.media_container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#new-quote{
+    background-color: variables.$primary-color;
+    border: none;
+    border-radius: .4rem; 
+    color: white;
+    font-family: variables.$font-primary;
+    font-size: 1em;
+    padding: .7em;
+    cursor:pointer
+}
+#new-quote:hover{
+    background-color: variables.$bg;
+    color: variables.$primary-color; 
+}
+
+.btn-twitter{
+    background-color: #00ACEE ;
+    border-radius: .4rem; 
+    color: white;
+    cursor:pointer;
+    font-family: variables.$font-primary;
+    font-size: 1em;
+    line-height: 1.5;
+    padding: .7em;
+    text-decoration: none;
+    
+}
+
+.btn-instagram{
+    background: linear-gradient(214deg, rgba(254,218,117,1) 0%, rgba(250,126,30,1) 18%, rgba(214,41,118,1) 38%, rgba(150,47,191,1) 62%, rgba(79,91,213,1) 84%); 
+    border-radius: .4rem; 
+    color: white;
+    cursor: pointer;
+    font-family: variables.$font-primary;
+    font-size: 1em;
+    padding: .7em;
+    line-height: 1.5;
+    text-decoration: none;
+    
+}
+
