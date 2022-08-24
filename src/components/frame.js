@@ -1,7 +1,24 @@
 import React from 'react'
 import Media from '../components/share'
+import { useState, useEffect } from 'react'
 import '../sass/frame.scss'
 
+
+
+function Quotes (){
+
+    const [quote, setQuote] = useState([])
+   
+    useEffect(()=> {
+        fetch("./quotes/quotes.json")
+        .then(response => response.json())
+        .then(data =>{
+            setQuote(data)
+        })
+    },[])
+
+    return quote
+}
 
 
 
@@ -10,6 +27,7 @@ import '../sass/frame.scss'
 
 
 function Frame (props) {
+    const showQuotes = Quotes()
     return(
         <div id="quote-box">
             <header>PSICOLOGIA Y CULTURA</header>
@@ -19,6 +37,7 @@ function Frame (props) {
         src={require(`../img/${props.image}.png`)} alt="img-inpsac"/>
         <p id="author">Zygmunt Bauman  Filósofo polaco</p>
         <Media />
+
     </div>
     )
 }
