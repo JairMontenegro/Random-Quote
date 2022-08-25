@@ -8,7 +8,7 @@ function Frame(props) {
   const [quote, setQuote] = useState(quotes);
 
   useEffect(() => {
-    console.log(quote);
+    console.log(quote.quotes.length);
   }, []);
 
   return (

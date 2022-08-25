@@ -6,9 +6,12 @@ import { AiFillInstagram } from "react-icons/ai";
 import "../sass/share.scss";
 
 function Share() {
+  const onClick = () => {
+    console.log(Math.floor(Math.random() * 11));
+  };
   return (
     <div className="media_container">
-      <Button text="Nueva cita" />
+      <Button text="Nueva cita" onClick={onClick} />
       <Socialmedia
         icon={<AiFillTwitterSquare size={20} className="icon" />}
         text="Tuitear"
