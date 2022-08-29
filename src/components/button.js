@@ -9,8 +9,3 @@ function Button({ onClick, text }) {
 }
 
 export default Button;
-
-// lo que va por props se pasa on + event
-// handle + elemento + evento
-
-//

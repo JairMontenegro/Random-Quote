@@ -1,17 +1,15 @@
 import React from "react";
-import Button from "./button";
 import Socialmedia from "./social";
 import { AiFillTwitterSquare } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import "../sass/share.scss";
+import Button from "./button";
 
-function Share() {
-  const onClick = () => {
-    console.log(Math.floor(Math.random() * 11));
-  };
+function Share({ onNewQuoteClick }) {
   return (
     <div className="media_container">
-      <Button text="Nueva cita" onClick={onClick} />
+      <Button text="Nueva cita" onClick={onNewQuoteClick} />
+
       <Socialmedia
         icon={<AiFillTwitterSquare size={20} className="icon" />}
         text="Tuitear"
@@ -27,6 +25,3 @@ function Share() {
 }
 
 export default Share;
-
-// componenetes en mayuscula y nombre del componente el mismo que del archivo
-// con f2 cambio el nombre en todos lados.
