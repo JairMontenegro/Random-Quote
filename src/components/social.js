@@ -4,7 +4,9 @@ function Socialmedia({ isTweet, text, icon }) {
   return (
     <a
       id={isTweet ? "tweet-quote" : "share-quote"}
-      href="twitter.com/intent/tweet"
+      href={`https://twiter.com/intent/tweet?text=hello`}
+      target="_blank"
+      rel="noopener noreferrer"
       className={isTweet ? "btn-twitter" : "btn-instagram"}
       alt="tuitear"
     >

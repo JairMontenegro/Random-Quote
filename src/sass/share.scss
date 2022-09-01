@@ -24,7 +24,7 @@
 .btn-twitter{
     background-color: #00ACEE ;
     border-radius: .4rem; 
-    color: white;
+    color: #fff;
     cursor:pointer;
     font-family: variables.$font-primary;
     font-size: 1em;
@@ -32,6 +32,11 @@
     padding: .7em;
     text-decoration: none;
     
+}
+.btn-twitter:hover{
+    background-color: #fff ;
+    color: #00ACEE;
+
 }
 
 .btn-instagram{
