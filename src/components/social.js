@@ -4,7 +4,7 @@ function Socialmedia({ isTweet, text, icon, quote }) {
   return (
     <a
       id={isTweet ? "tweet-quote" : "share-quote"}
-      href={`https://twiter.com/intent/tweet?text=${quote}sigueme en @inspac`}
+      href={`https://twiter.com/intent/tweet?text=eninstagram@inpsac`}
       target="_blank"
       rel="noopener noreferrer"
       className={isTweet ? "btn-twitter" : "btn-instagram"}
