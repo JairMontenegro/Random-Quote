@@ -8,6 +8,8 @@ header{
 }
 
 #quote-box{
+    display: flex;
+    flex-direction: column;
     margin: 5rem auto;
     max-width: 33rem;
     width: 100%;
@@ -20,7 +22,6 @@ header{
 .img-inpsac{
     width: 40%;
     height: 100%;
-    position: relative;
     border-radius: 50%;
 }
 
@@ -42,7 +43,6 @@ header{
     padding: .2em;
     text-align:right;
     max-width: 10em;
-    position: relative;
-    top: -7rem;
-    right: -5rem;
+
+
 }

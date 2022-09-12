@@ -28,12 +28,13 @@ function Frame(props) {
     <div id="quote-box">
       <header>PSICOLOGIA Y CULTURA</header>
       <p id="text">{quote}</p>
+      <p id="author">{author}</p>
       <img
         className="img-inpsac"
         src={require(`../img/${props.image}.png`)}
         alt="img-inpsac"
       />
-      <p id="author">{author}</p>
+
       <Share onNewQuoteClick={getQuote} />
     </div>
   );
