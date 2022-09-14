@@ -1,5 +1,5 @@
 import React from "react";
-import Socialmedia from "./social";
+import Socialmedia from "./socialMedia";
 import { AiFillTwitterSquare } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import "../sass/share.scss";
@@ -14,6 +14,7 @@ function Share({ onNewQuoteClick }) {
         icon={<AiFillTwitterSquare size={20} className="icon" />}
         text="Tuitear"
         isTweet={true}
+        link={`https://twiter.com/intent/tweet?text${onNewQuoteClick}`}
       />
       <Socialmedia
         icon={<AiFillInstagram size={20} className="icon" />}
