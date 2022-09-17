@@ -1,13 +1,12 @@
 import React from "react";
 
-function Socialmedia({ isTweet, text, icon }) {
-  let addUrl = "";
+function SocialMedia({ isTweet, text, icon, link }) {
   return (
     <a
       id={isTweet ? "tweet-quote" : "share-quote"}
-      href={`https://twiter.com/intent/tweet?text=${addUrl}`}
+      href={link}
       target="_blank"
-      rel="noopener noreferrer"
+      rel="noreferrer"
       className={isTweet ? "btn-twitter" : "btn-instagram"}
       alt="tuitear"
     >
@@ -17,4 +16,4 @@ function Socialmedia({ isTweet, text, icon }) {
   );
 }
 
-export default Socialmedia;
+export default SocialMedia;
