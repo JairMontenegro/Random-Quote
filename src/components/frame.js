@@ -35,7 +35,11 @@ function Frame(props) {
         alt="img-inpsac"
       />
 
-      <Share onNewQuoteClick={getQuote} />
+      <Share
+        onNewQuoteClick={getQuote}
+        onShareQuote={quote}
+        onShareAuthor={author}
+      />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import "../sass/share.scss";
 import Button from "./button";
 
-function Share({ onNewQuoteClick }) {
+function Share({ onNewQuoteClick, onShareQuote, onShareAuthor }) {
   return (
     <div className="media_container">
       <Button text="Nueva cita" onClick={onNewQuoteClick} />
@@ -14,12 +14,13 @@ function Share({ onNewQuoteClick }) {
         icon={<AiFillTwitterSquare size={20} className="icon" />}
         text="Tuitear"
         isTweet={true}
-        link={`https://twiter.com/intent/tweet?text${onNewQuoteClick}`}
+        link={`https://twiter.com/intent/tweet?text=${onShareQuote} ${onShareAuthor} /sígueme @EduMontenegroF`}
       />
       <Socialmedia
         icon={<AiFillInstagram size={20} className="icon" />}
         text="Compartir"
         isTweet={false}
+        link={`https://www.instagram.com/create/story/ ${onShareQuote} ${onShareAuthor} /sígueme @inpsac`}
       />
     </div>
   );
