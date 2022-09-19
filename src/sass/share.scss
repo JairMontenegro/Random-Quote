@@ -20,6 +20,10 @@
     background-color: variables.$bg;
     color: variables.$primary-color; 
 }
+#new-quote:active{
+    background-color:variables.$primary-color;
+    color:#fff; 
+}
 
 .btn-twitter{
     background-color: #00ACEE ;
