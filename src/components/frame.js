@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Share from "../components/share";
 import "../sass/frame.scss";
+import axios from "axios";
 
 function Frame(props) {
   const [quote, setQuote] = useState("");
@@ -11,17 +12,16 @@ function Frame(props) {
   }, []);
 
   const getQuote = () => {
-    let url =
-      "https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json";
-    fetch(url)
-      .then((resolve) => resolve.json())
+    axios
+      .get("./local-json/quotes/quotes.json")
       .then((data) => {
-        let dataQuotes = data.quotes;
+        let dataQuotes = data.data.quotes;
         let getRandomNum = Math.floor(Math.random() * dataQuotes.length);
         let getRandomQuote = dataQuotes[getRandomNum];
         setQuote(getRandomQuote.quote);
         setAuthor(getRandomQuote.author);
-      });
+      })
+      .catch((err) => console.log(err));
   };
 
   return (
