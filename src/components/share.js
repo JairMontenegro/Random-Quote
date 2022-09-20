@@ -20,7 +20,7 @@ function Share({ onNewQuoteClick, onShareQuote, onShareAuthor }) {
         icon={<AiFillInstagram size={20} className="icon" />}
         text="Compartir"
         isTweet={false}
-        link={`https://www.instagram.com/create/story/ ${onShareQuote} ${onShareAuthor} /sígueme @inpsac`}
+        link={`https://www.instagram.com/inpsac/`}
       />
     </div>
   );
