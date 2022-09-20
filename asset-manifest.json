@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/maquina-de-citas/static/css/main.9e970377.css",
-    "main.js": "/maquina-de-citas/static/js/main.b11e0ed8.js",
-    "static/media/ArsenicaTrial-Medium.ttf": "/maquina-de-citas/static/media/ArsenicaTrial-Medium.eeb06e4cdd3c524e848c.ttf",
-    "static/media/inpsac.png": "/maquina-de-citas/static/media/inpsac.16b791de3ccfc3b6a9d4.png",
-    "index.html": "/maquina-de-citas/index.html",
-    "main.9e970377.css.map": "/maquina-de-citas/static/css/main.9e970377.css.map",
-    "main.b11e0ed8.js.map": "/maquina-de-citas/static/js/main.b11e0ed8.js.map"
+    "main.css": "/Random-quote/static/css/main.686deb93.css",
+    "main.js": "/Random-quote/static/js/main.b4cfd97c.js",
+    "static/media/ArsenicaTrial-Medium.ttf": "/Random-quote/static/media/ArsenicaTrial-Medium.eeb06e4cdd3c524e848c.ttf",
+    "static/media/inpsac.png": "/Random-quote/static/media/inpsac.16b791de3ccfc3b6a9d4.png",
+    "index.html": "/Random-quote/index.html",
+    "main.686deb93.css.map": "/Random-quote/static/css/main.686deb93.css.map",
+    "main.b4cfd97c.js.map": "/Random-quote/static/js/main.b4cfd97c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e970377.css",
-    "static/js/main.b11e0ed8.js"
+    "static/css/main.686deb93.css",
+    "static/js/main.b4cfd97c.js"
   ]
 }
