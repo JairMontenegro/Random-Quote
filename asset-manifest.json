@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Random-quote/static/css/main.686deb93.css",
-    "main.js": "/Random-quote/static/js/main.b4cfd97c.js",
+    "main.css": "/Random-quote/static/css/main.93ae7b61.css",
+    "main.js": "/Random-quote/static/js/main.497e924e.js",
     "static/media/ArsenicaTrial-Medium.ttf": "/Random-quote/static/media/ArsenicaTrial-Medium.eeb06e4cdd3c524e848c.ttf",
     "static/media/inpsac.png": "/Random-quote/static/media/inpsac.16b791de3ccfc3b6a9d4.png",
     "index.html": "/Random-quote/index.html",
-    "main.686deb93.css.map": "/Random-quote/static/css/main.686deb93.css.map",
-    "main.b4cfd97c.js.map": "/Random-quote/static/js/main.b4cfd97c.js.map"
+    "main.93ae7b61.css.map": "/Random-quote/static/css/main.93ae7b61.css.map",
+    "main.497e924e.js.map": "/Random-quote/static/js/main.497e924e.js.map"
   },
   "entrypoints": [
-    "static/css/main.686deb93.css",
-    "static/js/main.b4cfd97c.js"
+    "static/css/main.93ae7b61.css",
+    "static/js/main.497e924e.js"
   ]
 }
