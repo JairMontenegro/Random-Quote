@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Random-quote/static/css/main.a9dd0952.css",
-    "main.js": "/Random-quote/static/js/main.de4a2696.js",
+    "main.js": "/Random-quote/static/js/main.826bcdf7.js",
     "static/media/ArsenicaTrial-Medium.ttf": "/Random-quote/static/media/ArsenicaTrial-Medium.eeb06e4cdd3c524e848c.ttf",
     "static/media/inpsac.png": "/Random-quote/static/media/inpsac.16b791de3ccfc3b6a9d4.png",
     "static/media/Random-quote.png": "/Random-quote/static/media/Random-quote.544c07b35ef9622b8efe.png",
     "index.html": "/Random-quote/index.html",
     "main.a9dd0952.css.map": "/Random-quote/static/css/main.a9dd0952.css.map",
-    "main.de4a2696.js.map": "/Random-quote/static/js/main.de4a2696.js.map"
+    "main.826bcdf7.js.map": "/Random-quote/static/js/main.826bcdf7.js.map"
   },
   "entrypoints": [
     "static/css/main.a9dd0952.css",
-    "static/js/main.de4a2696.js"
+    "static/js/main.826bcdf7.js"
   ]
 }
