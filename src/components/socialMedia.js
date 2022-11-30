@@ -5,7 +5,7 @@ function SocialMedia({ isTweet, text, icon, link }) {
     <a
       id={isTweet ? "tweet-quote" : "share-quote"}
       href={link}
-      target="_blank"
+      target="_top"
       rel="noreferrer"
       className={isTweet ? "btn-twitter" : "btn-instagram"}
       alt="tuitear"
